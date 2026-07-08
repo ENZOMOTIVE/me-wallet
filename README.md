@@ -1,10 +1,20 @@
 # Me Wallet
 
-> Me Wallet is a static web project built with HTML, CSS, and JavaScript.
+> Me Wallet is a personal crypto-wallet project for exploring wallet structure, account flows, and Web3 UX.
 
 ## The Story
 
 Me Wallet starts with a simple goal: create a browser experience that is simple to open, inspect, and iterate on. The repository is intentionally compact today, so the README focuses on turning the current shape into a clear starting point for the next round of work.
+
+## Detailed Description
+
+Me Wallet is a personal crypto-wallet project for exploring wallet structure, account flows, and Web3 UX. This README is meant to explain the project like a handoff note: what the idea is, why the repository exists, and how someone can start working with it without opening every file first.
+
+The project is meant to be inspected in the browser. Keep the interaction, styling decisions, and any manual test steps close to the README so visual changes stay intentional.
+
+At the top level, the most important entry points are `ethers.js`, `manifest.json`, `popup.html`, `popup.js`, and `style.css`. Together they show the current boundary of the project and make it easier to separate product code, support files, documentation, and experiments.
+
+The visible stack currently points to `JavaScript`, `HTML`, and `CSS`. Keep this list honest as the project changes so the README remains useful as a first technical map.
 
 ## What It Includes
 
