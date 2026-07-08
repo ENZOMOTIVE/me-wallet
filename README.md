@@ -1,72 +1,59 @@
 # Me Wallet
 
-## Project Tags
+> Me Wallet is a static web project built with HTML, CSS, and JavaScript.
 
-- `Protocol`
+## The Story
 
-## Overview
+Me Wallet starts with a simple goal: create a browser experience that is simple to open, inspect, and iterate on. The repository is intentionally compact today, so the README focuses on turning the current shape into a clear starting point for the next round of work.
 
-Me Wallet is a static web project using HTML, CSS, and JavaScript.
+## What It Includes
 
-## Features
+- A browser-first experience that can run as a static page.
 
-- Browser extension manifest and popup workflow
-- Static browser UI that can run without a backend
+## How It Is Put Together
 
-## Tech Stack
+| Path | Role |
+| --- | --- |
+| `.gitattributes` | project file or folder |
+| `ethers.js` | JavaScript source |
+| `manifest.json` | project file or folder |
+| `popup.html` | project file or folder |
+| `popup.js` | JavaScript source |
+| `style.css` | project file or folder |
 
-- Browser Extension
-- JavaScript
-- HTML
-- CSS
-
-## Project Structure
-
-- `.gitattributes` - project file or directory
-- `ethers.js` - project file or directory
-- `manifest.json` - browser extension or app manifest
-- `popup.html` - project file or directory
-- `popup.js` - project file or directory
-- `style.css` - project file or directory
-
-## Getting Started
-
-### Prerequisites
-
-- Git
-
-### Setup and Run
+## Local Development
 
 ```bash
 git clone https://github.com/ENZOMOTIVE/me-wallet.git
 cd me-wallet
 ```
 
-For browser-extension testing, load the repository as an unpacked extension from the browser extensions page.
+## Command Surface
 
-## Commands
-
-- No automated command set is declared yet; document commands here as tooling is added.
+The repository does not declare a shared command table yet. Use the local development notes above for the current workflow, then promote repeatable commands here as the project grows.
 
 ## Configuration
 
-- No required runtime configuration is documented yet. Add environment variables here when the project needs them.
+- Keep wallet private keys, RPC URLs, mnemonics, and contract secrets outside version control.
 
-## Testing and Quality
+## Quality Checks
 
-- No automated test workflow is declared yet; add tests and document the command here as the project matures.
+- Open the page locally and check the browser console for errors.
 
-## Documentation Notes
+## Where To Take It Next
 
-- Keep this README aligned with the actual source layout and commands.
-- Add screenshots, API examples, contract addresses, or deployment links when they become stable.
-- Update the project tags when the scope changes.
+- Add a short example that shows the project doing its main job from start to finish.
+- Keep setup commands current whenever dependencies, scripts, or deployment targets change.
+- Record important product decisions here so the repository keeps its story as the code evolves.
 
-## Contributing
+## Project Metadata
 
-1. Create a focused branch for the change.
-2. Update code and documentation together.
-3. Run the relevant checks before opening a pull request.
+| Field | Details |
+| --- | --- |
+| Repository | `ENZOMOTIVE/me-wallet` |
+| Categories | `Protocol` |
+| Primary stack | JavaScript, HTML, CSS |
+
 
 ## License
 
